@@ -1,0 +1,52 @@
+Parrot Security OS is an open source and free GNU/LINUX distribution that is made for developers, penetration testers, security researchers, forensic investigators and privacy-aware people. It is based on Debian Testing and ships with MATE as its default desktop environment. It is a customised version of Debian which doesn’t only come with security tools but , It also has pre-installed development, security and anonymity tools like Tor, Tor chat, I2P, Anonsurf, Zulu Crypt that are commonly used by developers, security researchers and privacy-concerned people. It can be dual-booted with other operating systems or can be used in virtual environments or docker.
+It has separate “Forensics Mode”, in which it doesn’t mount any of the system hard drives or partitions and leaves no effect on host system, making it more stealth than its ordinary mode. This mode is used to perform forensics operations on the host system.
+Parrot is a worldwide community of developers and security specialists that work together to build a shared framework of tools to make their job easier, standardized and more reliable and secure. Parrot OS, the flagship product of Parrot Security is a GNU/Linux distribution based on Debian and designed with Security and Privacy in mind. It includes a full portable laboratory for all kinds of cyber security operations, from pentesting to digital forensics and reverse engineering, but it also includes everything needed to develop our own software or keep our data secure
+What is Parrot OS?
+Parrot Security (Parrot OS, Parrot) is a Free and Open source GNU/Linux distribution based on Debian Testing designed for security experts, developers and privacy aware people. It includes a full portable arsenal for IT security and digital forensics operations. It also includes everything we need to develop our own programs or protect our privacy while surfing the net. Parrot is available in the Security and Home Editions, even as VM and also on Docker. The operating system ships by default with either MATE, KDE and XFCE (only Home Edition) Desktop Environments.
+
+History
+•	The first public release appeared on April 10th, 2013 as the result of the work of Lorenzo Faletra who continues to lead development.
+Originally developed as part of Frozenbox (a community forum by the same creator of Parrot), the effort has grown to include a community of open source developers, professional security experts, advocates of digital rights, and Linux enthusiasts from all around the globe. The project is headquartered in Palermo, Italy and governed by Parrot Security CIC, a community interest company registered in the UK.
+
+
+Key features
+1.	Secure :- Always updated, frequently released with many hardening and sandboxing options available. Everything is under our complete control.
+2.	Free:- Feel free to get the system, share with anyone, read the source code and change it as you want! This system is made to respect your freedom, and it ever will be.
+3.	Lightweight :-We care about resources consumption, and the system has proven to be extremely lightweight and run surprisingly fast even on very old hardware or with very limited resources.
+4.	Portable and universal :- Tools are designed to be compatible with as many devices as possible via containerization technologies like Docker or Podman. Feel free to use the Parrot tools on Windows, Mac OS or any other Linux distribution without changing our habits.
+5.	System Specifications: based on Debian 9, runs on a custom hardened Linux 4.5 kernel, uses MATE desktop and Lightdm display manager.
+6.	Digital Forensics: supports “Forensic” boot option to shun boot automounts plus many more.
+7.	Anonymity: supports Anonsurf including anonymization of entire OS, TOR and I2P anonymous networks and beyond.
+8.	Cryptography: comes with custom built Anti Forensic tools, interfaces for GPG and cryptsetup. Additionally, it also supports encryption tools such as LUKS, Truecrypt and VeraCrypt.
+9.	Programming: braces FALCON (1.0) programming language, multiple compilers and debuggers and beyond.
+
+ Infrastructure
+A resilient and distributed infrastructure with dedicated CDNs, worldwide mirrors and IPFS/P2P gateways to give access to software and information even to people in small  countries where stable internet connection compares to  foreign countries is not an option. Architecture: supports i386, amd64, 486 (legacy x86), armel, armhf (ARM). 
+The Intel 386, originally released as 80386 and later renamed i386, is a 32-bit microprocessor introduced in 1985.The first versions had 275,000 transistors and were the CPU of many workstations and high-end personal computers of the time. As the original implementation of the 32-bit extension of the 80286 architecture, the i386 instruction set, programming model, and binary encodings are still the common denominator for all 32-bit x86 processors, which is termed the i386-architecture, x86, or IA-32, depending on context.
+x86-64 (also known as x64, x86_64, AMD64, and Intel 64) is a 64-bit version of the x86 instruction set, first released in 1999. It introduced two new modes of operation, 64-bit mode and compatibility mode, along with a new 4-level paging mode.
+
+
+With 64-bit mode and the new paging mode, it supports vastly larger amounts of virtual memory and physical memory than was possible on its 32-bit predecessors, allowing programs to store larger amounts of data in memory.
+The Intel 486, officially named i486 and also known as 80486, is a higher-performance follow-up to the Intel 386 microprocessor. The i486 was introduced in 1989 and was the first tightly pipelined x86 design as well as the first x86 chip to use more than a million transistors, due to a large on-chip cache and an integrated floating-point unit. It represents a fourth generation of binary compatible CPUs since the original 8086 of 1978.
+Debian/armhf is an acronym for “ arm hard float,” representing a port on Debian. The Debian armhf port was started to benefit the floating-point unit (FPU) on modern 32 bit ARM boards.
+	
+Licences
+It is a Free software, mainly the GNU GPL and Creative_Commons ."Free software" is software that respects the freedom of users and their community. Broadly speaking, it means that users have the freedom to run, copy, distribute, study, modify, and improve the software. In other words, "free software" is a question of freedom, not price.
+Four are the freedoms that define "Free Software":
+•	Freedom 0 : The freedom to run the program as desired, for any purpose.
+•	Freedom 1: The freedom to study how the program works, and change it to do what we want. Access to the source code is a necessary condition for this.
+•	Freedom 2: The freedom to redistribute copies.
+•	Freedom 3: The freedom to distribute copies of its modified versions to third parties. This allows us to offer the entire community the opportunity to benefit from the modifications. Access to the source code is a necessary condition for this.
+A program is "free software" if it appropriately grants users all of these freedoms. Otherwise it is not free. It is said to be "Proprietary Software" or "Proprietary Software".
+
+GNU Project
+Let's start with some history... It's the 70's of the 20th century, when a man named Richard Stallman started working at MIT . At this time it was very common to work with free software. The programmers were free to cooperate with each other and did so quite often. What's more, even computer companies distributed their software freely. All this changed in the 1980s, and practically all software began to be distributed privately, which means that such software had owners who prohibited cooperation between users. For this reason, and in the face of what seems an injustice, Richard Stallman decides to create the GNU project in 1983. Being in 1985 when the Free Software Foundation was founded with the objective of raising funds to help program GNU. 
+The name "GNU" was chosen because it met a few requirements. First of all, it was a recursive acronym for "GNU Is Not Unix". Second, it was a real word. Lastly, it was fun to say . They decided to make the operating system Unix-compatible because the overall design was already tested and portable, and because the compatibility made it easy for Unix users to switch from Unix to GNU.A Unix-like operating system includes a kernel, compilers, editors, word processors, mail software, graphical interfaces, libraries, games, and many other things. For all this, writing a complete operating system takes a lot of work. At the beginning of 1990 the main components had already been found or programmed except for one, the kernel.
+
+Who is it designed for
+The system is designed to be familiar for the security expert and easy to use for the new entry student, but it does not try to hide its internals as other general purpose distributions try to do. Parrot can be used as a daily system. It provides all the programs for the day to day tasks, including a dedicated edition of the system (Parrot Home Edition) that doesn't include security tools.
+
+
+Software Management
+The system has its own applications repository including all the packages supported by Debian, plus many other applications and tools Debian can't provide yet. All of them are accessible directly from the APT package manager. Additionally, Parrot supports Snap, a package distribution system that provides easy access to many other programs that GNU/Linux distributions don't always ship in their software archives. Flatpak is a universal software store similar to Snap. It can be installed from the Parrot official repository. Also Parrot supports Wine, a compatibility layer to run Windows applications in GNU/Linux environments.
+
